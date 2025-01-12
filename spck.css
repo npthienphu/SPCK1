@@ -1,0 +1,167 @@
+/* === General Styles === */
+body {
+    font-family: 'Quicksand', sans-serif;
+    color: #333;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+/* === Colors & Sections === */
+.colored-section {
+    background: linear-gradient(135deg, #c41e3a 0%, #d4363e 100%);
+    color: #fff;
+}
+
+.white-section {
+    background-color: #fff;
+    padding: 100px 0;
+}
+
+/* === Navigation === */
+.navbar-header {
+    padding: 1rem 0;
+}
+
+.navbar-brand {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #fff !important;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+.nav-link {
+    color: #fff !important;
+    font-size: 1.1rem;
+    margin: 0 15px;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #FFD700 !important;
+    transform: translateY(-2px);
+}
+
+.nav-link.active {
+    color: #FFD700 !important;
+    font-weight: bold;
+}
+
+/* === Phong Tuc Section === */
+.phong-tuc-section {
+    background-color: #fff8f8;
+}
+
+.section-title {
+    text-align: center;
+    color: #c41e3a;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+.custom-card {
+    background: white;
+    border-radius: 15px;
+    padding: 30px;
+    margin-bottom: 40px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.custom-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+.custom-card h2 {
+    color: #c41e3a;
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.custom-card p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #666;
+    margin-bottom: 1.5rem;
+}
+
+.custom-list {
+    list-style: none;
+    padding: 0;
+}
+
+.custom-list li {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.custom-list i {
+    color: #c41e3a;
+    margin-right: 10px;
+}
+
+.img-fluid {
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* === Footer === */
+footer {
+    padding: 5% 15%;
+}
+
+.social-icons {
+    margin-bottom: 20px;
+}
+
+.social-icon {
+    color: #fff;
+    font-size: 1.8rem;
+    margin: 0 15px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.social-icon:hover {
+    color: #FFD700;
+    transform: translateY(-3px);
+}
+
+.copyright {
+    color: rgba(255,255,255,0.8);
+    font-size: 0.9rem;
+}
+
+/* === Responsive Design === */
+@media (max-width: 991px) {
+    .custom-card {
+        text-align: center;
+    }
+    
+    .img-fluid {
+        margin-bottom: 30px;
+    }
+    
+    .section-title {
+        font-size: 2.5rem;
+    }
+    
+    .custom-card h2 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .container-fluid {
+        padding: 3% 5%;
+    }
+    
+    .section-title {
+        font-size: 2rem;
+    }
+}
