@@ -27,12 +27,12 @@ body {
 .navbar-brand {
     font-size: 2.5rem;
     font-weight: 700;
-    color: #fff !important;
+    color: #ffffff !important;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
 }
 
 .nav-link {
-    color: #fff !important;
+    color: #ece7e7 !important;
     font-size: 1.1rem;
     margin: 0 15px;
     transition: all 0.3s ease;
@@ -50,7 +50,7 @@ body {
 
 /* === Phong Tuc Section === */
 .phong-tuc-section {
-    background-color: #fff8f8;
+    background-color: #000000;
 }
 
 .section-title {
@@ -63,7 +63,7 @@ body {
 }
 
 .custom-card {
-    background: white;
+    background: rgb(0, 0, 0);
     border-radius: 15px;
     padding: 30px;
     margin-bottom: 40px;
@@ -85,7 +85,7 @@ body {
 .custom-card p {
     font-size: 1.1rem;
     line-height: 1.8;
-    color: #666;
+    color: #0a0000;
     margin-bottom: 1.5rem;
 }
 
@@ -97,7 +97,7 @@ body {
 .custom-list li {
     margin-bottom: 15px;
     font-size: 1.1rem;
-    color: #555;
+    color: #000000;
 }
 
 .custom-list i {
@@ -120,7 +120,7 @@ footer {
 }
 
 .social-icon {
-    color: #fff;
+    color: #000000;
     font-size: 1.8rem;
     margin: 0 15px;
     transition: all 0.3s ease;
@@ -133,7 +133,7 @@ footer {
 }
 
 .copyright {
-    color: rgba(255,255,255,0.8);
+    color: rgba(0, 0, 0, 0.8);
     font-size: 0.9rem;
 }
 

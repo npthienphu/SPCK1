@@ -1,0 +1,173 @@
+/* General Styles */
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+/* Sections */
+.colored-section {
+    background-color: #FFE4E1;
+    color: #333;
+}
+
+.white-section {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+/* Navigation Bar */
+.navbar-header {
+    padding: 0 0 1rem;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #d4363e;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    margin: 0 15px;
+    color: #333;
+}
+
+.nav-link:hover {
+    color: #d4363e;
+}
+
+/* Headings */
+.section-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #d4363e;
+    margin-bottom: 3rem;
+}
+
+/* Cards */
+.card {
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.the-shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.card h3 {
+    color: #d4363e;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Buttons */
+.btn-red {
+    background-color: #d4363e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-red:hover {
+    background-color: #b62d34;
+    color: white;
+}
+
+.btn-gold {
+    background-color: #ffd700;
+    color: #000;
+    border: none;
+    padding: 10px 30px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-gold:hover {
+    background-color: #ffed4a;
+}
+
+/* Form Styles */
+form {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-label {
+    font-weight: 600;
+    color: #333;
+}
+
+.form-control {
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.form-control:focus {
+    border-color: #ffd700;
+    box-shadow: 0 0 0 0.2rem rgba(255, 215, 0, 0.25);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 3% 15%;
+}
+
+.social-icons {
+    margin-bottom: 15px;
+}
+
+.social-icon {
+    margin: 20px 10px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.social-icon:hover {
+    color: #d4363e;
+}
+
+.copyright {
+    color: #333;
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container-fluid {
+        padding: 3% 7%;
+    }
+
+    .card-img-top {
+        height: 150px;
+    }
+    
+    form {
+        margin-bottom: 2rem;
+    }
+
+    .section-heading {
+        font-size: 2rem;
+    }
+}
